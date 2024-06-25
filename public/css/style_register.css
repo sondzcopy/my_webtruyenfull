@@ -1,0 +1,47 @@
+	<style>
+	body {
+    background: url('./public/image/bg_2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    opacity: 0.9;
+}
+
+.t1 {
+    color: white;
+}
+
+.divider-text {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+}
+
+	</style>
